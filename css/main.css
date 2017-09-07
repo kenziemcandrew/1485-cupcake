@@ -1,1 +1,230 @@
 @charset "UTF-8";
+
+/*--------------------------------------------------------------
+
+>>> TABLE OF CONTENTS:
+
+----------------------------------------------------------------
+
+1.0 - Typography
+
+1.1 - Headings
+
+1.2 - Images
+
+1.3 - Colors
+
+1.4 - Buttons
+
+1.5 - Tables 
+
+1.6 - Forms 
+
+2.0 - Navigation Menus
+
+2.1 - Footer
+
+3.1 - Site Structure
+
+
+
+	
+
+--------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* 1.0 Typography */
+
+h2, h1, h3 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+p {
+	font-size: 16px;
+}
+
+.btn, h1, h2, h3, h5 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 31px;
+}
+
+p, h1, #about {
+	text-align: center;
+}
+
+
+
+/* 1.2 Images */
+
+#bg-home {
+	background-image: url("../img/cupcake-bg.jpg");
+	background-repeat: no-repeat;
+}
+
+#hours li {
+	list-style-image: url(../img/cherry-bullet.png);
+}
+
+img[src=img/cupcake-about.jpg] {
+	display: inline-block;
+
+}
+
+
+
+/* 1.3 Color */
+
+.bg-pink, table {
+	background-color: #f2d7f4;
+}
+
+.bg-blue {
+	background-color: #bce4ed;
+}
+
+
+/* 1.4 Buttons */
+
+.btn {
+	text-decoration: none;
+}
+
+/* 1.5 Tables */
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+
+caption {
+	display: none;
+}
+
+
+td th a, td {
+	padding: 10px;
+}
+
+
+th, td {
+	padding-right: 100px;
+}
+
+/* 1.6 Forms */
+
+input, label, textarea {
+	display: block;
+}
+
+
+
+/* 1.6 Forms */
+
+input, label, textarea {
+	display: block;
+}
+
+form {
+  margin: auto;
+  width: 1095px;
+  height: 813px;
+  padding: 10px; 
+}
+
+fieldset {
+	border: none;
+}
+
+/* 2.0 Navigation */ 
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #34697a;
+}
+
+nav {
+	text-align: right;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+/* 2.1 Footer */
+
+
+
+/* 3.1 Site Structure */
+
+.row {
+	overflow: auto; 
+}
+
+.wrapper {
+	width: 1024px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#about {
+	width: 465px;
+	height: 265px;
+}
+
+#hours {
+	width: 278px;
+	height: 412px;
+	float: right;
+}
+
+
+#treats {
+	display: inline-block;
+}
+
+#flavors {
+	width: 270px;
+	height: 136px;
+}
+
+#orders p {
+	text-align: left;
+	width: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
